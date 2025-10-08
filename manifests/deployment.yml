@@ -56,6 +56,8 @@ spec:
               value: {{ToolsServiceAadOidcClientId}}
             - name: AzureAdConfiguration__ClientSecret
               value: {{ToolsServiceAadOidcClientSecret}}
+            - name: ASPNETCORE_FORWARDEDHEADERS_ENABLED
+              value: "true"
             - name: DatabaseConnectionString
               value: {{DatabaseConnectionString}}
             - name: DfESigninAddress
