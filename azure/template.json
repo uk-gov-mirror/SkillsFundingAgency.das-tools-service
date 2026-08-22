@@ -126,6 +126,10 @@
     "appInsightsInstrumentationkey": {
       "type": "string",
       "value": "[reference(concat('application-insights-', parameters('utcValue'))).outputs.Instrumentationkey.Value]"
+    },
+    "appInsightsConnectionString": {
+      "type": "string",
+      "value": "[reference(concat('application-insights-', parameters('utcValue'))).outputs.ConnectionString.Value]"
     }
   }
 }
