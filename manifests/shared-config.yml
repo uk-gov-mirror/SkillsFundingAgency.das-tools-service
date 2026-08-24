@@ -14,6 +14,7 @@ data:
   BaseUrl: {{IngressHost}}
   ConfigurationStorageConnectionString: {{ConfigurationStorageConnectionString}}
   APPINSIGHTS_INSTRUMENTATIONKEY: {{ARMOUTPUTS_APPINSIGHTSINSTRUMENTATIONKEY}}
+  APPLICATIONINSIGHTS_CONNECTION_STRING: {{ARMOUTPUTS_APPINSIGHTSCONNECTIONSTRING}}
   EnvironmentName: {{EnvironmentName}}
   LoggingRedisConnectionString: {{LoggingRedisConnectionString}}
   LoggingRedisKey: logstash
